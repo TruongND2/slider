@@ -5,51 +5,51 @@ import { HorizontalSlideShow } from "./components/HorizontalSlideShow";
 
 const PICTURES = [
   {
-    img: "/images/chasing-dogs.jpg",
-    description: "Two dogs",
+    img: "/images/apple.png",
+    description: "Apple",
   },
   {
-    img: "/images/lake.jpg",
-    description: "Beautiful lake view",
+    img: "/images/cherry.png",
+    description: "Cherry",
   },
   {
-    img: "/images/pitbull.jpg",
-    description: "Pit bull",
+    img: "/images/chicken.png",
+    description: "Chicken",
   },
   {
-    img: "/images/sunset.jpg",
-    description: "Sunset",
+    img: "/images/lime.png",
+    description: "Lime",
   },
   {
-    img: "/images/three-dogs.jpg",
-    description: "Three dogs",
+    img: "/images/mango.png",
+    description: "Mango",
   },
   {
-    img: "/images/chasing-dogs.jpg",
-    description: "Two dogs",
+    img: "/images/apple.png",
+    description: "Apple",
   },
   {
-    img: "/images/lake.jpg",
-    description: "Beautiful lake view",
+    img: "/images/cherry.png",
+    description: "Cherry",
   },
   {
-    img: "/images/pitbull.jpg",
-    description: "Pit bull",
+    img: "/images/chicken.png",
+    description: "Chicken",
   },
   {
-    img: "/images/sunset.jpg",
-    description: "Sunset",
+    img: "/images/lime.png",
+    description: "Lime",
   },
   {
-    img: "/images/three-dogs.jpg",
-    description: "Three dogs",
+    img: "/images/mango.png",
+    description: "Mango",
   },
 ];
 
 function App() {
   return (
-    <div>
-      <h1 className="text-[95px]">My demo slider</h1>
+    <div className="text-center h-[100vh] pt-[100px]">
+      <h1 className="text-[30px] md:text-[95px] mb-[50px]">My demo slider</h1>
       <HorizontalSlideShow pictures={PICTURES}/>
     </div>
   );
